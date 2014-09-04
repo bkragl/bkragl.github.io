@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Domine);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+/* Layout */
+
+body,
+textarea,
+input {
+    font-family: "Domine", serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+body {
+    background: #EFEFE7;
+    max-width: 820px;
+    margin: 20px auto 20px auto;
+}
+
+.page {
+    padding: 12px 22px;
+    background: #FCFCFA;
+    border: 1px #E2E0D8 solid;
+    border-radius: 5px;
+    line-height: 1.57;
+}
+
+.photo {
+    float: right;
+    border: none;
+    border-radius: 5px;
+    margin-left: 22px;    
+}
+
+/* Sectioning */
+
+.page > h1 {
+    font-size: 32px;
+    line-height: normal;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.page > h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 14px;
+}
+
+/* Footer. */
+
+.footer {
+    text-align: center;
+    color: #9A9994;
+    font-size: 12px;
+    padding: 20px 20px 0 20px;
+}
+
+.footer a {
+    color: #9A9994;
+}
+
+.footer a:hover {
+    color: #9A9994;
+    text-decoration: underline;
+}
+
+/* Content styles. */
+
+p,
+ol,
+ul,
+li,
+table
+{
+    margin-bottom: 15px;
+}
+
+ul,
+ol {
+    margin-left: 25px;
+}
+
+code,
+pre {
+    font-family: Courier, monospace;
+    font-size: 100%;
+}
+
+pre {
+    background: #E8E7DD;
+    line-height: 1.27;
+    padding: 7px;
+    padding-left: 7px;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    text-align: left;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+a {
+    color: #3F48FA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5F68FF;
+    text-decoration: underline;
+}
+
+a > img {
+    border: none;
+}
