@@ -72,6 +72,18 @@ body {
     text-decoration: underline;
 }
 
+/* Links to publication pages */
+
+ul#publinks {
+    margin-left: 0px;
+}
+
+ul#publinks li {
+    display: inline;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
 /* Content styles. */
 
 p,
